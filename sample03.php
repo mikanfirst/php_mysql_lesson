@@ -21,8 +21,8 @@
     <h2>Practice</h2>
     <pre>
       <?php
-      // date=
-      print(date('G時 i分 s秒'));
+      // date=時を表す関数
+      print('現在は' . date('G時 i分 s秒') . 'です');
       ?>
     </pre>
   </main>
