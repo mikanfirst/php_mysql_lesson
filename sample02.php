@@ -20,8 +20,14 @@
   <main>
     <h2>Practice</h2>
     <pre>
-<!-- ここにプログラムを記述します -->
-</pre>
+      <?php
+        // print('1 + 1');
+        // print(1 - 1);
+        // print(10 * 5);
+        print(123 + 2 * 5);
+        print((123+5) / 5);
+      ?>
+    </pre>
   </main>
 </body>
 
