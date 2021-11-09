@@ -23,12 +23,12 @@
       <?php
       // print(time() + 60 * 60 * 24);
       // string to time = strtotime('+2day');
+      // print(date('n/j(D)', strtotime('+1day')));
       for ($i = 1; $i <= 365; $i++) :
         $date = strtotime('+' . $i . 'day');
         print(date('n/j(D)', $date));
         print "\n";
       endfor;
-      // print(date('n/j(D)', strtotime('+1day')));
       ?>
     </pre>
   </main>
