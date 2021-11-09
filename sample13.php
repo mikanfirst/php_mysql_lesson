@@ -21,6 +21,7 @@
     <h2>Practice</h2>
     <pre>
 <?php
+// file_put_contents ファイルに内容を書き込むファンクション
 $success = file_put_contents('../../news_date/news.txt', '2021-11-9 ホームページをリニューアルしました');
 if ($success) {
   print('ファイルへの書き込みが完了しました');
