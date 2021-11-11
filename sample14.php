@@ -20,7 +20,12 @@
   <main>
     <h2>Practice</h2>
     <pre>
-<!-- ここにプログラムを記述します -->
+<?php
+$news = file_get_contents('../../news_date/news.txt');
+print($news);
+?>
+
+readfile('../../news.txt');
 </pre>
   </main>
 </body>
