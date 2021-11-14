@@ -24,7 +24,7 @@
 $news = file_get_contents('../../news_date/news.txt');
 print($news);
 ?>
-
+aaa
 readfile('../../news.txt');
 </pre>
   </main>
