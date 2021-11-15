@@ -22,10 +22,22 @@
     <pre>
 <?php
 $news = file_get_contents('../../news_date/news.txt');
+// $news .= "2021-11-15 にゅーすを追加しました\n";
+// ↓入力した値を上に表示させたい場合
+$news = "2021-11-15 にゅーすを追加しました\n" . $news;
+file_put_contents('../../news_date/news.txt', $news);
+
+
 print($news);
+
 ?>
-aaa
-readfile('../../news.txt');
+<!-- readfile('../../news_data/news.txt'); -->
+<!-- $x = $x + 5;
+$x += 5;
+
+$s = $s . 'add';
+$s .= 'add'; -->
+
 </pre>
   </main>
 </body>
