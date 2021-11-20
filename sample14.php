@@ -26,17 +26,15 @@ $news = file_get_contents('../../news_date/news.txt');
 // ↓入力した値を上に表示させたい場合
 $news = "2021-11-15 にゅーすを追加しました\n" . $news;
 file_put_contents('../../news_date/news.txt', $news);
+print($news);
+?>
 
-
+<?php
+$news = "2021-11-20 自動ファイル更新\n" . $news
+$news = file_put_contents('../../news_date/news.txt', $news);
 print($news);
 
-?>
 <!-- readfile('../../news_data/news.txt'); -->
-<!-- $x = $x + 5;
-$x += 5;
-
-$s = $s . 'add';
-$s .= 'add'; -->
 
 </pre>
   </main>
